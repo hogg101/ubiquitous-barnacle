@@ -1,61 +1,62 @@
-        body {
-            font-family: 'Ubuntu', sans-serif;
-            background-color: white;
-            color: #0d3d56;
-            margin: 0;
-            padding: 0;
-        }
-    header {
-        background-color: #0d3d56;
-        padding: 20px 0;
-        text-align: center;
-        color: white;
-    }
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+  color: #0d3d56;
+  margin: 0;
+  padding: 0;
+}
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+header {
+  background-color: #0d3d56;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
 
-    h1 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-    h2 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
 
-    p {
-        font-size: 1.1rem;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
 
 /* Navigation menu styles */
 nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
