@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Hogg - Home</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold" />
-    <link rel="stylesheet" href="styles.css">
-
+    <title>James Hogg - Professional Bio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body, h1, h2, p, a {
+            font-family: 'Ubuntu', sans-serif !important;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>James Hogg</h1>
-<!--        
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
--->
-
+<body class="bg-blue-900 text-white">
+    <header class="bg-blue-950 py-6">
+        <div class="container mx-auto px-4 flex items-center">
+            <img src="https://secure.gravatar.com/avatar/1a0a09a5482ea9ca3e3c98fccdd8e1b9?s=200" alt="James Hogg" class="w-24 h-24 rounded-full mr-6">
+            <div>
+                <h1 class="text-4xl font-bold">James Hogg</h1>
+                <p class="text-xl mt-2">Systems Integrator & CTO</p>
+            </div>
+        </div>
     </header>
-    <div class="container">
-        <h2>Professional Bio</h2>
-        <p>
-            Based in London, I am a systems integrator with a special focus on networking, WiFi, and surveillance. As CTO at Twisted Pear, I also specialise in automation and control systems for lighting and AV.
-        </p>
-        <p>
-            I am a firm believer in self-education and the power of the internet as a vast knowledge resource. By sharing our knowledge with others, I believe that we can all grow and learn together. I advocate for a free, open, and net neutral internet.
-        </p>
-        <p>
-            When I'm not working, I love exploring London and embracing my passion for photography, which I had set aside after moving to the city. Originally from coastal Northumberland, I also relish the opportunity to spend time outdoors and breathe in the fresh air.
-        </p>
-    </div>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-blue-800 rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+            <div class="text-blue-100 space-y-4">
+                <p>
+                    Based in London, I am a systems integrator with a special focus on networking, WiFi, and surveillance. As CTO at Twisted Pear, I also specialise in automation and control systems for lighting and AV.
+                </p>
+                <p>
+                    I am a firm believer in self-education and the power of the internet as a vast knowledge resource. By sharing our knowledge with others, I believe that we can all grow and learn together. I advocate for a free, open, and net neutral internet.
+                </p>
+                <p>
+                    When I'm not working, I love exploring London and embracing my passion for photography, which I had set aside after moving to the city. Originally from coastal Northumberland, I also relish the opportunity to spend time outdoors and breathe in the fresh air.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-blue-800 rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+            <ul class="list-disc list-inside text-blue-100">
+                <li>Systems Integration</li>
+                <li>Networking & WiFi</li>
+                <li>Surveillance Systems</li>
+                <li>Automation & Control Systems</li>
+                <li>Lighting & AV Technologies</li>
+            </ul>
+        </section>
+
+        <section class="bg-blue-800 rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+            <p class="text-blue-100">
+                Email: <a href="mailto:james@jameshogg.tech" class="text-blue-200 hover:underline">james@jameshogg.tech</a><br>
+                LinkedIn: <a href="#" class="text-blue-200 hover:underline">linkedin.com/in/jameshogg</a><br>
+                GitHub: <a href="#" class="text-blue-200 hover:underline">github.com/jameshogg</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-blue-950 py-4 mt-8">
+        <div class="container mx-auto px-4 text-center text-blue-200">
+            &copy; 2024 James Hogg. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
